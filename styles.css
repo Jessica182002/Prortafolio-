@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #333;
+    color: white;
+}
+
+.navegacion .logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background-color: #333;
+    color: white;
+    min-height: 60vh;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.start-button, .cv-button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.start-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.cv-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.hero-image img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.container_padre{
+    display: flex;
+    margin: 20px;
+
+}
+.img-proy{
+    height: auto;
+    width: 100%;
+    
+}
+.cont_hijo{
+    margin: 10px;
+    background-color: aquamarine;
+    border-radius: 5;
+
+}
+.bt1{
+    background-color: aqua;
+    border-radius: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.bt2{
+    background-color: #28a745;
+    border-radius: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18;
+    margin-left: 250px;
+}
+.proyect{
+    color: purple
+}
+.texto_hijo{
+    text-align: left;
+    margin: 10px;
+}
+.bt3{
+    border-radius: 5%;
+    background-color: violet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18;
+    margin-left: 5%;
+}
+h3{
+    text-align: left;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
+.text-proyect{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.fooder{
+    background-color: skyblue;
+    box-sizing: content-box;
+}
+.title_food{
+    text-align: left;
+    
+}
+
+
+
+
+
+/* proyecto : pensar en un tema, hacer un landin page que es la prueba del bimestre 
+venir el dia 12 de noviembre con el trabajo
+11 proyecto terminado 
+12 clase normal 
+15 de noviembre defensa del proyecto
+en cada seccion imagenes slaider, aumentitos, tablas, video, mapa, cover 
+buscar erramientas para el rendimeinto de las paginas (REALIZAR PRUEVAS DE RENDIMIENTOS)
+*/
