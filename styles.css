@@ -114,10 +114,9 @@ nav{
 .container_padre{
     display: flex;
     margin: 20px;
-
 }
 .img-proy{
-    height: auto;
+    height: 300px;
     width: 100%;  
 }
 .proyect h2{
@@ -152,7 +151,7 @@ nav{
 }
 .proyect{
     padding: 3%;
-    background-color: slategrey;
+    background-color: #4b4b4b;
 } 
 .proyect h2{
     padding-bottom: 3%;
@@ -180,6 +179,7 @@ nav{
     margin-right: 5%;
 }
 .fooder{
+  display: flex ;
     background-color:#333;
     color: white;
     box-sizing: border-box;
@@ -192,22 +192,19 @@ nav{
     font-size: 2rem;
 }
 .contactos-text{
-    display: flex;
-    margin-top: 2%;
-    /*justify-content: space-between;*/
-    margin-bottom: 5%;
-    box-sizing: border-box;
-    width: 100%;
+    justify-content: space-between;
+    width: 80%;
 }
 .contactos-text p{
     margin-left: 8%;
-    margin-right: 20%;
+    margin-right: 10%;
+}
+.coment{
+    margin-top: 60px;
 }
 .coment form{
-    margin-top: 9%;
     display: flex;
 }
-
 
 
 
@@ -219,10 +216,3 @@ venir el dia 12 de noviembre con el trabajo
 en cada seccion imagenes slaider, aumentitos, tablas, video, mapa, cover 
 buscar erramientas para el rendimeinto de las paginas (REALIZAR PRUEVAS DE RENDIMIENTOS)
 */
-.div-box {
-    width: 200px;          /* Ancho del contenido */
-    height: 100px;         /* Altura del contenido */
-    padding: 20px;         /* Relleno de 20px alrededor del contenido */
-    border: 5px solid black; /* Borde de 5px de grosor */
-    margin: 10px;          /* Margen de 10px alrededor de la caja */
-  } 
