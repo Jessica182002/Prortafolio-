@@ -182,15 +182,31 @@ nav{
 .fooder{
     background-color:#333;
     color: white;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 0.5%;
 }
+
 .fooder h2{
     text-align: center;
     font-size: 2rem;
 }
-.contacots-text{
+.contactos-text{
+    display: flex;
+    margin-top: 2%;
+    /*justify-content: space-between;*/
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    width: 100%;
+}
+.contactos-text p{
+    margin-left: 8%;
+    margin-right: 20%;
+}
+.coment form{
+    margin-top: 9%;
     display: flex;
 }
-
 
 
 
@@ -203,3 +219,10 @@ venir el dia 12 de noviembre con el trabajo
 en cada seccion imagenes slaider, aumentitos, tablas, video, mapa, cover 
 buscar erramientas para el rendimeinto de las paginas (REALIZAR PRUEVAS DE RENDIMIENTOS)
 */
+.div-box {
+    width: 200px;          /* Ancho del contenido */
+    height: 100px;         /* Altura del contenido */
+    padding: 20px;         /* Relleno de 20px alrededor del contenido */
+    border: 5px solid black; /* Borde de 5px de grosor */
+    margin: 10px;          /* Margen de 10px alrededor de la caja */
+  } 
